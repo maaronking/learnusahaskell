@@ -235,7 +235,7 @@ that makes sense for the data.  I just picked it because it looked cool!
 
 #+NAME: AlgebraicDataTypesImports
 #+BEGIN_SRC haskell :exports none :results silent
-:l algebraic-data-examples.hs
+:l src/algebraic-data-examples.hs
 #+END_SRC
 
 Haskell has a number of basic built-in types (Bool, Int, Char, Float). As with 
@@ -299,7 +299,7 @@ putStrLn $ "Rectangle Area: " ++ show (area (Rectangle 0 0 100 100))
 
 #+NAME: RecordSyntaxImports
 #+BEGIN_SRC haskell :exports none 
-:l record-syntax-examples.hs
+:l src/record-syntax-examples.hs
 #+END_SRC
 
 #+RESULTS: RecordSyntaxImports
